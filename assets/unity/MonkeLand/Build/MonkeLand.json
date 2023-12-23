@@ -1,0 +1,9 @@
+{
+    "TOTAL_MEMORY": 268435456,
+    "loaderUrl": "MonkeLandWebGL.loader.js",
+    "dataUrl": "MonkeLandWebGL.data",
+    "FrameworkUrl": "MonkeLandWebGL.framework.js",
+    "codeUrl": "MonkeLandWebGL.wasm",
+    "splashScreenStyle": "Dark",
+    "backgroundColor": "#231F20"
+    }
