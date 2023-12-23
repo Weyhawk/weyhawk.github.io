@@ -1,8 +1,41 @@
 <script src="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/TemplateData/UnityProgress.js"></script>  
-<script src="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/Build/UnityLoader.js"></script>
+<script src="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/Build/MonkeLandWebGL.loader.js"></script>
 <script>
   var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl}}/assets/unity/{{page.unity_dir}}/Build/MonkeLand.json",{onProgress: UnityProgress});  
 </script>
 <div class="webgl-content">
   <div id="gameContainer" style="width: 960px; height: 600px"></div>
 </div>
+
+
+
+
+var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/MonkeLandWebGL.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/MonkeLandWebGL.data",
+        frameworkUrl: buildUrl + "/MonkeLandWebGL.framework.js",
+        codeUrl: buildUrl + "/MonkeLandWebGL.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "MonkeLand",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+                fullscreenButton.onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
