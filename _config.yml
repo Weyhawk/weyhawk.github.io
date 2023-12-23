@@ -14,7 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 header:
-  image: /assets/images/sandiego.jpg  
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/sandiego.jpg
   
 title: Weyhawk
 email:
