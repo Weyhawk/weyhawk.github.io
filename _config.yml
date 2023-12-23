@@ -82,6 +82,14 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/darian-mcdaniel/"
 
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/WHLogo.png
+  actions:
+    - label: "Download"
+      url: "#test-link"
+
 footer:
   links:
     - label: "GitHub"
