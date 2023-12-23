@@ -13,16 +13,6 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
----
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/WHLogo.png
-  actions:
-    - label: "Download"
-      url: "#test-link"
----
-
 title: Weyhawk
 header:
   overlay_color: "#000"
