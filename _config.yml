@@ -62,12 +62,21 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Portfolio Temp"
   links:
+<<<<<<< HEAD
       location: "Mesa - Arizona"
       email: "drmcdani@weyhawk.com"
       linkedin: "darian-mcdaniel"
+=======
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+>>>>>>> parent of db0ec80 (Unity Test/Page Update)
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Weyhawk"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 footer:
   links:
