@@ -13,14 +13,6 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/sandiego.jpg
-  actions:
-    - label: "Download"
-      url: "#test-link"
-
 title: Weyhawk
 email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,6 +20,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 teaser: /assets/images/sandiego.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/Test.jpg
+  actions:
+    - label: "Download"
+      url: "#test-link"
 logo: /assets/images/WHLogo.png
 twitter_username: username
 github_username: username
