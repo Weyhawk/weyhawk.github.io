@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: Weyhawk
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -21,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 teaser: /assets/images/WHLogo.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: /assets/images/WHLogo.svg
+logo: /assets/images/WHLogo.png
 og_image: "/assets/images/WHLogo.png"
 twitter_username: username
 github_username: username
