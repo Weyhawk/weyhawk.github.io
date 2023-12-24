@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 865.35 612.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #e1c874;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="192.69 106.78 163.62 1.73 .68 1.73 186.67 611.63 192.69 611.63 192.69 106.78"/>
+  <polygon class="cls-2" points="317.55 243.21 547.8 243.21 547.8 154.76 500.64 0 367.9 0 317.55 165.21 317.55 243.21"/>
+  <polygon class="cls-2" points="317.55 368.52 317.55 611.63 321 611.63 398.6 368.52 317.55 368.52"/>
+  <polygon class="cls-2" points="547.8 368.52 466.2 368.52 544.35 611.63 547.8 611.63 547.8 368.52"/>
+  <polygon class="cls-1" points="704.91 1.73 672.65 118.28 672.65 611.63 678.68 611.63 864.68 1.73 704.91 1.73"/>
+</svg>
