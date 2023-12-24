@@ -3,9 +3,10 @@ title: 'Projects'
 layout: single
 permalink: /projects/
 author_profile: true
-#header:
-#  overlay_image: /images/paris.jpg
-#  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/sandiego.jpg
 ---
 
 ## Unity Projects
