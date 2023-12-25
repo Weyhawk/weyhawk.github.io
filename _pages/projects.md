@@ -1,7 +1,7 @@
 ---
 title: 'Projects'
 layout: single
-permalink: /projects/
+permalink: /
 author_profile: true
 header:
   overlay_color: "#000"
