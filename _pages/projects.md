@@ -11,8 +11,8 @@ header:
 
 ## Unity Projects
 
-- [**MonkeLand**](https://https://github.com/Weyhawk/MonkeLand): Short 2D platformer game made with Unity.
+- [**MonkeLand**](https://github.com/Weyhawk/MonkeLand): Short 2D platformer game made with Unity.
 
 ## Python Projects
 
-- [**Sportsbook Webscraper**](https://https://github.com/Weyhawk/sbWebscraperTest): In Prog
+- [**Sportsbook Webscraper**](https://github.com/Weyhawk/sbWebscraperTest): In Prog
